@@ -1,0 +1,1608 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.Main-1 {
+    display: block;
+    flex: 100%;
+    background: url('images/Header-background.jpg') no-repeat;
+    /*max-width:100%;*/
+    background-size: 100%;
+    height: auto;
+}
+
+.Main-1-1 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.Main-1-1-1 {
+    flex: 40%;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.Main-1-1-1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.Main-1-1-2 {
+    flex: 60%;
+    padding: 60px 0;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Main-1-1-2 a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px 0;
+    transition: all 0.5s;
+}
+
+.Main-1-1-2 a:hover {
+    color: #000;
+    background: yellow;
+}
+
+.Main-1-2 {
+    display: flex;
+    flex: 100%;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Main-1-2-1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    text-align: center;
+}
+
+.Main-1-2-1 h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 104px;
+    color: #2c3a42;
+}
+
+.Main-1-2-1 h1 {
+    font-size: 77px;
+    color: #ad6c12;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.Main-1-2-1 button {
+    background-color: #fff;
+    font-size: 38.5px;
+    color: #2c3a42;
+    border: none;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.Main-1-2-1 button:hover {
+    border: 2px solid #2c3a42;
+}
+
+.Main-2 {
+    display: flex;
+    flex: 100%;
+    height: auto;
+    background-color: #2a3b40;
+}
+
+.Main-2-1 {
+    display: flex;
+    flex-direction: row;
+    padding: 50px 100px;
+}
+
+.Main-2-1-1 {
+    display: block;
+    flex: 60%;
+    padding: 100px 20px;
+}
+
+.Main-2-1-1 h6 {
+    font-size: 29px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.Main-2-1-1 p {
+    display: flex;
+    font-size: 18.75px;
+    font-weight: 400;
+    flex-wrap: wrap;
+    color: #fff;
+    line-height: 33px;
+}
+
+.Main-2-1-2 {
+    display: flex;
+    flex: 40%;
+}
+
+.Main-2-1-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Main-3 {
+    display: flex;
+    flex: 100%;
+    background-color: #d4d8d9;
+    padding: 50px 100px;
+}
+
+.Main-3-1 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    padding: 50px 0;
+}
+
+.Main-3-1 h6 {
+    font-size: 19px;
+    font-weight: 700;
+    color: #2a3b40;
+}
+
+.Main-3-1 p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #2a3b40;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle,
+.c1 {
+    height: 31px;
+    width: 31px;
+    border-radius: 50%;
+    background-color: #2a3b40;
+    display: inline-block;
+}
+
+.Main-3-1-1 {
+    display: flex;
+    flex: 33%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Main-3-1-2 {
+    display: flex;
+    flex: 33%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Main-3-1-3 {
+    display: flex;
+    flex: 33%;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Main-4 {
+    display: block;
+    flex: 100%;
+    background: url('images/Section4-background.jpg') no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.Main-4-1 {
+    display: block;
+    flex: 100%;
+    /*margin:20px 50px;*/
+    padding: 90px 180px;
+}
+
+.Main-4-1 h6 {
+    font-weight: 700;
+    font-size: 18.5px;
+    color: #2a3b40;
+    text-transform: uppercase;
+}
+
+.Main-4-1 p {
+    font-weight: 400;
+    font-size: 16.7px;
+    color: #2a3b40;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Main-4-1-1 {
+    display: block;
+    flex: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Main-4-1-1 h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 77px;
+    color: #2a3b40;
+}
+
+.Main-4-1-1 h3 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #ad6c12;
+    text-transform: uppercase;
+}
+
+
+/********* FIRST ROW - STARTS **********/
+
+.Main-4-1-2 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/********* FIRST HALF - FIRST ROW **********/
+
+.Main-4-1-2-1 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+}
+
+.Main-4-1-2-1-1 {
+    display: flex;
+    flex: 50%;
+}
+
+.Main-4-1-2-1-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Main-4-1-2-1-2 {
+    display: block;
+    flex: 50%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 50px;
+}
+
+
+/********* SECOND HALF - FIRST ROW **********/
+
+.Main-4-1-2-2 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+}
+
+.Main-4-1-2-2-1 {
+    display: flex;
+    flex: 50%;
+}
+
+.Main-4-1-2-2-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Main-4-1-2-2-2 {
+    display: block;
+    flex: 50%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 50px;
+}
+
+
+/********* FIRST ROW - ENDS **********/
+
+
+/********* SECOND ROW - STARTS **********/
+
+.Main-4-1-3 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/********* FIRST HALF - SECOND ROW **********/
+
+.Main-4-1-3-1 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+}
+
+.Main-4-1-3-1-1 {
+    display: block;
+    flex: 50%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.Main-4-1-3-1-2 {
+    display: flex;
+    flex: 50%;
+}
+
+.Main-4-1-3-1-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/********* SECOND HALF - SECOND ROW **********/
+
+.Main-4-1-3-2 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+}
+
+.Main-4-1-3-2-1 {
+    display: block;
+    flex: 50%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 50px;
+}
+
+.Main-4-1-3-2-2 {
+    display: flex;
+    flex: 50%;
+}
+
+.Main-4-1-3-2-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/********* SECOND ROW - ENDS **********/
+
+
+/********* THIRD ROW - STARTS **********/
+
+.Main-4-1-4 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/********* FIRST HALF - THIRD ROW **********/
+
+.Main-4-1-4-1 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+}
+
+.Main-4-1-4-1-1 {
+    display: flex;
+    flex: 50%;
+}
+
+.Main-4-1-4-1-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Main-4-1-4-1-2 {
+    display: block;
+    flex: 50%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 50px;
+}
+
+
+/********* SECOND HALF - THIRD ROW **********/
+
+.Main-4-1-4-2 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+}
+
+.Main-4-1-4-2-1 {
+    display: flex;
+    flex: 50%;
+}
+
+.Main-4-1-4-2-1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.Main-4-1-4-2-2 {
+    display: block;
+    flex: 50%;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    text-align: center;
+    padding: 60px 50px;
+}
+
+
+/********* THIRD ROW - ENDS **********/
+
+.rates {
+    font-weight: 700;
+    font-size: 16px;
+    color: #2a3b40;
+    text-align: center;
+}
+
+.Main-5 {
+    display: flex;
+    flex: 100%;
+    background-color: #d4d8d9;
+    height: auto;
+}
+
+.Main-5-1 {
+    display: flex;
+    flex: 100%;
+    background: url('images/Section5-border.png') no-repeat;
+    background-size: 100%;
+    height: auto;
+}
+
+.Main-5-1-1 {
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    background-color: #ccc;
+    padding: 70px 320px;
+}
+
+.Main-5-1-1-1 {
+    display: block;
+    flex: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.Main-5-1-1-1 h3 {
+    font-weight: 700;
+    font-size: 29px;
+    color: #2a3b40;
+}
+
+.Main-5-1-1-1 p {
+    font-weight: 400;
+    font-size: 18.7px;
+    color: #2a3b40;
+    line-height: 33px;
+}
+
+.Main-5-1-1-2 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    text-align: center;
+    padding: 20px 100px;
+    justify-content: space-around;
+}
+
+.Main-5-1-1-2 a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16.6px;
+    color: #2a3b40;
+}
+
+.Main-5-1-1-2 a:hover {
+    text-decoration: underline;
+}
+
+.Main-6 {
+    display: flex;
+    flex: 100%;
+    background: url('images/Section6-background.jpg') no-repeat;
+    /*background-size:100%;*/
+    background-size: cover;
+    height: auto;
+}
+
+.Main-6-1 {
+    display: block;
+    flex: 100%;
+    padding-top: 240px;
+}
+
+.Main-6-1 h6 {
+    font-weight: 700;
+    font-size: 18.5px;
+    color: #2a3b40;
+    text-transform: uppercase;
+}
+
+.Main-6-1 p {
+    font-weight: 400;
+    font-size: 16.7px;
+    color: #2a3b40;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Main-6-1-1 {
+    display: block;
+    flex: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 50px 0;
+}
+
+.Main-6-1-1 h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 77px;
+    color: #2a3b40;
+}
+
+.Main-6-1-1 h3 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #ad6c12;
+    text-transform: uppercase;
+}
+
+
+/********* SECTION 6 - FIRST ROW - STARTS ********************/
+
+.Main-6-1-2 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 100px 45px 100px;
+}
+
+
+/********* SECTION 6 - FIRST ROW - FIRST HALF ********************/
+
+.Main-6-1-2-1 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.Main-6-1-2-1-1 {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.circle1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circle1 img {
+    margin: 20px;
+}
+
+.Main-6-1-2-1-2 {
+    display: block;
+    flex: 80%;
+}
+
+
+/********* SECTION 6 - FIRST ROW - SECOND HALF ********************/
+
+.Main-6-1-2-2 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.Main-6-1-2-2-1 {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.circle2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circle2 img {
+    margin-top: 20px;
+}
+
+.Main-6-1-2-2-2 {
+    display: block;
+    flex: 80%;
+}
+
+
+/********* SECTION 6 - FIRST ROW - ENDS ********************/
+
+
+/********* SECTION 6 - SECOND ROW - STARTS ********************/
+
+.Main-6-1-3 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 100px 45px 100px;
+}
+
+
+/********* SECTION 6 - SECOND ROW - FIRST HALF ********************/
+
+.Main-6-1-3-1 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.Main-6-1-3-1-1 {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.circle3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circle3 img {
+    margin-top: 25px;
+}
+
+.Main-6-1-3-1-2 {
+    display: block;
+    flex: 80%;
+}
+
+
+/********* SECTION 6 - SECOND ROW - SECOND HALF ********************/
+
+.Main-6-1-3-2 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.Main-6-1-3-2-1 {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.circle4 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circle4 img {
+    margin-top: 20px;
+}
+
+.Main-6-1-3-2-2 {
+    display: block;
+    flex: 80%;
+}
+
+
+/********* SECTION 6 - SECOND ROW - ENDS ********************/
+
+
+/********* SECTION 6 - THIRD ROW - STARTS ********************/
+
+.Main-6-1-4 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0 100px 45px 100px;
+}
+
+
+/********* SECTION 6 - THIRD ROW - FIRST HALF ********************/
+
+.Main-6-1-4-1 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.Main-6-1-4-1-1 {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.circle5 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circle5 img {
+    margin-top: 25px;
+}
+
+.Main-6-1-4-1-2 {
+    display: block;
+    flex: 80%;
+}
+
+
+/********* SECTION 6 - THIRD ROW - SECOND HALF ********************/
+
+.Main-6-1-4-2 {
+    display: flex;
+    flex: 50%;
+    flex-direction: row;
+    padding: 0 100px;
+}
+
+.Main-6-1-4-2-1 {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+}
+
+.circle6 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #fff;
+    text-align: center;
+}
+
+.circle6 img {
+    margin-top: 20px;
+}
+
+.Main-6-1-4-2-2 {
+    display: block;
+    flex: 80%;
+}
+
+
+/********* SECTION 6 - THIRD ROW - ENDS ********************/
+
+.Main-7 {
+    display: flex;
+    flex: 100%;
+    background: url('images/Section7-background.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.Main-8 {
+    display: block;
+    flex: 100%;
+    background-color: #2a3b40;
+    padding: 50px 80px;
+    height: auto;
+}
+
+.Main-8-1 {
+    display: block;
+    flex: 100%;
+}
+
+.Main-8-1 h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 77px;
+    color: #fff;
+    text-align: center;
+}
+
+.Main-8-2 {
+    display: block;
+    flex: 100%;
+    padding-top: 30px;
+}
+
+.Main-8-2-1,
+.Main-8-2-2,
+.Main-8-2-3 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.Main-8-2-1-1,
+.Main-8-2-1-2,
+.Main-8-2-1-3,
+.Main-8-2-2-1,
+.Main-8-2-2-2,
+.Main-8-2-2-3 {
+    display: flex;
+    flex: 33%;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    padding: 0 50px;
+}
+
+.Main-8-2-3-1 {
+    display: flex;
+    flex: 100%;
+    display: block;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+}
+
+select,
+input[type=date],
+input[type=time],
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=submit] {
+    width: 70%;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #2a3b40;
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 17px;
+    color: #fff;
+}
+
+input[type=submit] {
+    width: 20%;
+    cursor: pointer;
+}
+
+.Main-9 {
+    display: flex;
+    flex: 100%;
+    background: url('images/Section9-background.jpg') no-repeat;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.Main-10 {
+    display: flex;
+    flex: 100%;
+    background-color: #d4d8d9;
+    height: auto;
+}
+
+.Main-10-1 {
+    display: block;
+    flex: 100%;
+}
+
+.Main-10-1 h6 {
+    font-weight: 700;
+    font-size: 14px;
+    color: #2a3b40;
+}
+
+.Main-10-1 h5 {
+    font-weight: 700;
+    font-size: 17px;
+    color: #2a3b40;
+}
+
+.Main-10-1 p {
+    font-weight: 400;
+    font-size: 17px;
+    color: #2a3b40;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.Hover {
+    display: block;
+}
+
+div.Hover div {
+    width: 7px;
+    height: 7px;
+    background: #ff992b;
+    transition: width 0.5s;
+}
+
+div.Hover a {
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #555555;
+}
+
+div.Hover:hover div {
+    width: 88px;
+}
+
+.Main-10-1-1 {
+    display: block;
+    flex: 100%;
+    text-align: center;
+}
+
+.Main-10-1-1 h2 {
+    font-family: 'Cookie', cursive;
+    font-size: 77px;
+    color: #2a3b40;
+}
+
+.Main-10-1-1 h3 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #ad6c12;
+    text-transform: uppercase;
+}
+
+.Main-10-1-2 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    padding: 80px 175px;
+}
+
+.Main-10-1-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: #fff;
+    padding: 10px 30px 10px 10px;
+}
+
+.Main-10-1-2-1 {
+    display: block;
+    flex: 30%;
+    flex-direction: column;
+}
+
+.Main-10-1-2-2 {
+    display: block;
+    flex: 30%;
+    flex-direction: column;
+    margin: 0 35px;
+}
+
+.Main-10-1-2-3 {
+    display: block;
+    flex: 30%;
+    flex-direction: column;
+}
+
+.Main-11 {
+    display: block;
+    flex: 100%;
+    background-color: #2a3b40;
+    text-align: center;
+    height: auto;
+    padding: 30px 320px;
+}
+
+.Main-11-1 {
+    display: block;
+    flex: 100%;
+    text-align: center;
+}
+
+.Main-11-1 h1 {
+    font-weight: 700;
+    font-size: 83px;
+    color: #fff;
+}
+
+.Main-11-1 p {
+    font-weight: 400;
+    font-size: 18.7px;
+    line-height: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.Main-11-1 h6 {
+    font-weight: 700;
+    font-size: 18.7px;
+    color: #fff;
+}
+
+.Main-11-2 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Main-11-2-1 {
+    display: flex;
+    flex: 60%;
+    justify-content: space-around;
+}
+
+.Main-11-2 a {
+    text-decoration: none;
+}
+
+.Main-11-2-2 {
+    display: flex;
+    flex: 40%;
+    justify-content: space-around;
+}
+
+.Main-12 {
+    display: flex;
+    flex: 100%;
+    background-color: #d4d8d9;
+    height: auto;
+}
+
+.Main-12-1 {
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+    padding: 60px 175px;
+}
+
+.Main-12-1-1 {
+    display: block;
+    flex: 70%;
+    padding-right: 200px;
+}
+
+.Main-12-1-1 h3 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #2a3b40;
+    text-transform: uppercase;
+}
+
+.Main-12-1-1 p {
+    font-weight: 400;
+    font-size: 18.7px;
+    color: #2a3b40;
+    line-height: 29px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Main-12-1-2 {
+    display: flex;
+    flex: 30%;
+    flex-direction: row;
+}
+
+.Main-12-1-2 h5 {
+    font-weight: 700;
+    font-size: 21px;
+    color: #2a3b40;
+    text-transform: uppercase;
+}
+
+.Main-12-1-2 a {
+    font-weight: 700;
+    font-size: 21px;
+    color: #2a3b40;
+    text-decoration: none;
+}
+
+.Main-12-1-2 a:hover {
+    text-decoration: underline;
+}
+
+.Main-12-1-2-1,
+.Main-12-1-2-2,
+.Main-12-1-2-3 {
+    display: block;
+    flex: 10%;
+    padding-right: 50px;
+}
+
+
+/*.Main-12-1-2-2{
+	display:block;
+	flex:10%;
+	padding-right:50px;
+}
+
+.Main-12-1-2-3{
+	display:block;
+	flex:10%;
+	padding-right:50px;
+}*/
+
+.Main-12-1-2-3 a {
+    font-weight: 400;
+}
+
+@media (max-width:1200px) {
+    .Main-1 {
+        background-size: cover;
+    }
+    .Main-1-1 {
+        flex-direction: column;
+    }
+    .Main-1-1-1 {
+        flex: 100%;
+    }
+    .Main-1-1-2 a {
+        flex: 100%;
+        display: block;
+        flex-direction: column;
+    }
+    .Main-1-2-1 {
+        padding: 50px;
+    }
+    .Main-2-1 {
+        flex-direction: column-reverse;
+        padding: 50px;
+    }
+    .Main-2-1-1 {
+        flex: 100%;
+    }
+    .Main-2-1-2 {
+        align-items: center;
+        justify-content: center;
+    }
+    .Main-4 {
+        background-size: cover;
+    }
+    .Main-4-1 {
+        padding: 90px 50px;
+    }
+    .Main-4-1-1 h2 {
+        font-size: 60px;
+    }
+    .Main-4-1-1 h3 {
+        font-size: 40px;
+    }
+    /********* FIRST ROW - STARTS **********/
+    .Main-4-1-2 {
+        flex-direction: column;
+    }
+    .Main-4-1-2-1-1 {
+        flex: 30%;
+    }
+    .Main-4-1-2-1-2 {
+        flex: 70%;
+        text-align: left;
+        padding: 30px 30px;
+    }
+    .Main-4-1-2-2 {
+        flex-direction: row-reverse;
+    }
+    .Main-4-1-2-2-1 {
+        flex: 30%;
+    }
+    .Main-4-1-2-2-2 {
+        flex: 70%;
+        text-align: left;
+        padding: 30px 30px;
+    }
+    /********* FIRST ROW - ENDS **********/
+    /********* SECOND ROW - STARTS **********/
+    .Main-4-1-3 {
+        flex-direction: column;
+    }
+    .Main-4-1-3-2-1 {
+        flex: 70%;
+        text-align: left;
+        padding: 30px 30px;
+    }
+    .Main-4-1-3-2-2 {
+        flex: 30%;
+    }
+    .Main-4-1-3-1 {
+        flex-direction: row-reverse;
+    }
+    .Main-4-1-3-1-1 {
+        flex: 70%;
+        text-align: left;
+        padding: 30px 30px;
+    }
+    .Main-4-1-3-1-2 {
+        flex: 30%;
+    }
+    /********* SECOND ROW - ENDS **********/
+    /********* THIRD ROW - STARTS **********/
+    .Main-4-1-4 {
+        flex-direction: column;
+    }
+    .Main-4-1-4-1-1 {
+        flex: 30%;
+    }
+    .Main-4-1-4-1-2 {
+        flex: 70%;
+        text-align: left;
+        padding: 30px 30px;
+    }
+    .Main-4-1-4-2 {
+        flex-direction: row-reverse;
+    }
+    .Main-4-1-4-2-1 {
+        flex: 30%;
+    }
+    .Main-4-1-4-2-2 {
+        flex: 70%;
+        text-align: left;
+        padding: 30px 30px;
+    }
+    /********* THIRD ROW - ENDS **********/
+    .Main-5-1-1 {
+        padding: 40px 100px;
+    }
+    .Main-6 {
+        background-size: cover;
+    }
+    .Main-6-1 {
+        padding: 90px 50px;
+    }
+    .Main-6-1-1 h2 {
+        font-size: 60px;
+    }
+    .Main-6-1-1 h3 {
+        font-size: 40px;
+    }
+    /********* SECTION 6 - FIRST ROW - STARTS **********/
+    .Main-6-1-2,
+    .Main-6-1-2-1,
+    .Main-6-1-2-2 {
+        padding: 0 50px 45px 50px;
+    }
+    /********* SECTION 6 - FIRST ROW - ENDS **********/
+    /********* SECTION 6 - SECOND ROW - STARTS **********/
+    .Main-6-1-3,
+    .Main-6-1-3-1,
+    .Main-6-1-3-2 {
+        padding: 0 50px 45px 50px;
+    }
+    /********* SECTION 6 - SECOND ROW - ENDS **********/
+    /********* SECTION 6 - THIRD ROW - STARTS **********/
+    .Main-6-1-4,
+    .Main-6-1-4-1,
+    .Main-6-1-4-2 {
+        padding: 0 50px 45px 50px;
+    }
+    /********* SECTION 6 - THIRD ROW - ENDS **********/
+    .Main-7 {
+        background-size: cover;
+    }
+    .Main-9 {
+        background-size: cover;
+    }
+    .Main-8 {
+        padding: 50px 50px;
+    }
+    .Main-8-2-1-1,
+    .Main-8-2-1-2,
+    .Main-8-2-1-3,
+    .Main-8-2-2-1,
+    .Main-8-2-2-2,
+    .Main-8-2-2-3 {
+        padding: 0 20px;
+    }
+    .Main-10-1-1 h2 {
+        font-size: 60px;
+    }
+    .Main-10-1-1 h3 {
+        font-size: 40px;
+    }
+    .Main-10-1-2 {
+        flex-direction: column;
+        padding: 80px 100px;
+    }
+    .Main-10-1-2 img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Main-10-1-2-1,
+    .Main-10-1-2-2,
+    .Main-10-1-2-3 {
+        display: flex;
+        flex: 100%;
+        flex-direction: row;
+        margin: 30px;
+        align-items: center;
+        background-color: #fff;
+    }
+    .card {
+        padding: 10px;
+    }
+    .Main-11 {
+        padding: 30px 200px;
+    }
+    .Main-11-2-1,
+    .Main-11-2-2 {
+        flex: 50%;
+    }
+    .Main-12-1 {
+        padding: 40px 100px;
+    }
+    .Main-12-1-1 {
+        padding-right: 100px;
+    }
+    .Main-12-1-2-1,
+    .Main-12-1-2-2,
+    .Main-12-1-2-3 {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:768px) {
+    .Main-2-1-1 {
+        text-align: center;
+    }
+    .Main-3 {
+        padding: 50px 50px;
+    }
+    .Main-3-1 {
+        display: block;
+    }
+    .Main-3-1-1,
+    .Main-3-1-2,
+    .Main-3-1-3 {
+        flex-direction: row;
+        flex: 100%;
+        margin: 20px 0;
+    }
+    .circle {
+        height: 15px;
+        width: 15px;
+        margin: 25px 10px;
+    }
+    .c1 {
+        height: 0px;
+        width: 0px;
+        /*display:hidden;*/
+    }
+    .Main-4 {
+        background-size: cover;
+    }
+    /********* FIRST ROW - STARTS **********/
+    .Main-4-1-2-1-1 {
+        flex: 50%;
+    }
+    .Main-4-1-2-1-2 {
+        flex: 50%;
+        text-align: left;
+    }
+    .Main-4-1-2-2-1 {
+        flex: 50%;
+    }
+    .Main-4-1-2-2-2 {
+        flex: 50%;
+        text-align: left;
+    }
+    /********* FIRST ROW - ENDS **********/
+    /********* SECOND ROW - STARTS **********/
+    .Main-4-1-3-1-1 {
+        flex: 50%;
+        text-align: left;
+    }
+    .Main-4-1-3-1-2 {
+        flex: 50%;
+    }
+    .Main-4-1-3-2-1 {
+        flex: 50%;
+        text-align: left;
+    }
+    .Main-4-1-3-2-2 {
+        flex: 50%;
+    }
+    /********* SECOND ROW - ENDS **********/
+    /********* THIRD ROW - STARTS **********/
+    .Main-4-1-4-1-1 {
+        flex: 50%;
+    }
+    .Main-4-1-4-1-2 {
+        flex: 50%;
+        text-align: left;
+    }
+    .Main-4-1-4-2-1 {
+        flex: 50%;
+    }
+    .Main-4-1-4-2-2 {
+        flex: 50%;
+        text-align: left;
+    }
+    /********* THIRD ROW - ENDS **********/
+    .Main-5-1-1 {
+        padding: 20px 50px;
+    }
+    .Main-5-1-1-2 {
+        flex-direction: column;
+    }
+    .Main-5-1-1-2 a {
+        flex: 100%;
+        display: block;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .Main-6 {
+        background-size: cover;
+    }
+    /********* SECTION 6 - FIRST ROW - STARTS **********/
+    .Main-6-1-2-1,
+    .Main-6-1-2-2 {
+        flex-direction: column;
+    }
+    .Main-6-1-2,
+    .Main-6-1-2-1,
+    .Main-6-1-2-2 {
+        padding: 0 25px 35px 25px;
+    }
+    .Main-6-1-2-1-1,
+    .Main-6-1-2-1-2,
+    .Main-6-1-2-2-1,
+    .Main-6-1-2-2-2 {
+        text-align: center;
+    }
+    /********* SECTION 6 - FIRST ROW - ENDS **********/
+    /********* SECTION 6 - SECOND ROW - STARTS **********/
+    .Main-6-1-3-1,
+    .Main-6-1-3-2 {
+        flex-direction: column;
+    }
+    .Main-6-1-3,
+    .Main-6-1-3-1,
+    .Main-6-1-3-2 {
+        padding: 0 25px 35px 25px;
+    }
+    .Main-6-1-3-1-1,
+    .Main-6-1-3-1-2,
+    .Main-6-1-3-2-1,
+    .Main-6-1-3-2-2 {
+        text-align: center;
+    }
+    /********* SECTION 6 - SECOND ROW - ENDS **********/
+    /********* SECTION 6 - THIRD ROW - STARTS **********/
+    .Main-6-1-4-1,
+    .Main-6-1-4-2 {
+        flex-direction: column;
+    }
+    .Main-6-1-4,
+    .Main-6-1-4-1,
+    .Main-6-1-4-2 {
+        padding: 0 25px 35px 25px;
+    }
+    .Main-6-1-4-1-1,
+    .Main-6-1-4-1-2,
+    .Main-6-1-4-2-1,
+    .Main-6-1-4-2-2 {
+        text-align: center;
+    }
+    /********* SECTION 6 - THIRD ROW - ENDS **********/
+    .Main-7 {
+        background-size: cover;
+    }
+    .Main-9 {
+        background-size: cover;
+    }
+    .Main-8 {
+        padding: 50px 20px;
+    }
+    .Main-8-2-1,
+    .Main-8-2-2 {
+        flex-direction: column;
+    }
+    select,
+    input[type=date],
+    input[type=time],
+    input[type=text],
+    input[type=email],
+    input[type=tel] {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+    input[type=submit] {
+        width: 80%;
+    }
+    .Main-10-1-2 {
+        flex-direction: column;
+        padding: 80px 100px;
+        text-align: center;
+    }
+    .Main-10-1-2-1,
+    .Main-10-1-2-2,
+    .Main-10-1-2-3 {
+        display: flex;
+        flex: 100%;
+        flex-direction: column;
+        margin: 20px;
+        background-color: rgba(255, 255, 255, 0.0);
+    }
+    div.Hover:hover div {
+        width: 100%;
+    }
+    .Main-11 {
+        padding: 30px 100px;
+    }
+    .Main-11-2 {
+        flex-direction: column;
+    }
+    .Main-11-2 a {
+        margin: 0 10px;
+    }
+    .Main-11-2-1 {
+        padding: 10px 150px;
+    }
+    .Main-11-2-2 {
+        padding: 0 250px;
+    }
+    .Main-12-1 {
+        padding: 20px 30px;
+    }
+    .Main-12-1-1 {
+        padding-right: 30px;
+    }
+    .Main-12-1-2-1,
+    .Main-12-1-2-2,
+    .Main-12-1-2-3 {
+        padding-right: 20px;
+    }
+}
